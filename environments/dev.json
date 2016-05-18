@@ -1,0 +1,8 @@
+{
+  "name": "dev",
+  "default_attributes": {
+    "jobs_app":{
+      "ini":"development.ini"
+    }
+  }
+}

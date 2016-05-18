@@ -1,0 +1,8 @@
+{
+  "name": "loadtest",
+  "default_attributes": {
+    "jobs_app":{
+      "ini":"loadtest.ini"
+    }
+  }
+}

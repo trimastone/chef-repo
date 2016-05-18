@@ -1,0 +1,8 @@
+{
+  "name": "prod",
+  "default_attributes": {
+    "jobs_app":{
+      "ini":"production.ini"
+    }
+  }
+}

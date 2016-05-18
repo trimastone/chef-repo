@@ -1,0 +1,4 @@
+#!/bin/sh
+exec 2>&1
+cd /home/jobs_user
+exec chpst -u jobs_user uwsgi --ini-paste-logged /home/jobs_user/jobs/<%= @options[:app_ini] %> --http-socket :6543 -p 10 -H /home/jobs_user/pyramid16
